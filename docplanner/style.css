@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    width: 100%;
+    margin-left: 0%;
+    background-color: white;
+    margin-top: 0%;
+}
+nav{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    top: 0;
+
+}
+nav img{
+    height: 33px;
+    width: 268px;
+    padding: 0 20px 0 20px;
+    font-size: 300;
+
+}
+li{
+    list-style-type: none;
+}
+.menuI{
+    display: inline;
+    color: #ababab ;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 0 9px 0 9px;
+}
+.menuI:hover{
+    cursor: pointer;
+    color: #31B39B;
+    
+}
+#dep:hover #submenu{
+  display: block;
+  
+}
+#submenu{
+    display: none;
+    position: absolute;
+   top: 30px;
+   right: 110px;
+   z-index: 1;
+   background-color: white;
+   margin: 0 0 0 -100px;
+   height: auto;
+   width: 170px;
+   box-shadow: rgb(211, 201, 207) 0px 5px 10px;
+
+}
+.submenuI{
+    color: #ababab ;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 12px 16px 12px 16px;
+    margin-left: -40px;
+}
+.submenuI:hover{
+    cursor: pointer;
+    color: #31B39B;
+    background-color: #f8f6f8f8;
+}
+#main1 img{
+    font-size: 16px;
+    height: 39px;
+    width: 40px;
+    margin: 0 271px 0 271px;
+    margin-bottom: 45px;
+}
+#main1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 620;
+    margin: 33px 0 66px 0;
+    padding: 0 20px 0 20px;
+    position: relative;
+    top: 120px;
+    left: 18%;
+    flex-direction: column; 
+    z-index: -1;
+}
+#main1 h1{
+    font-family: "Work Sans";
+    font-weight: 10px;
+    line-height: 40px;
+    font-size: 34px;
+    color: #31B39B;
+    text-align: center;
+    width: 580px;
+    justify-content: center;
+}
+#main1 div{
+    display: flex;
+}
+#main1 p{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 28px;
+    color: #747474;
+    margin: 30px 0 13px 0;
+    padding: 10px;
+
+}
+#card{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 75%;
+    height: 380px;
+    margin-top: 200px;
+    z-index: -1;
+    margin-right: 10%;
+
+}
+#card > div{
+    padding: 10px 10px 10px 10px;
+}
+.cards{
+    height: 345px;
+    width: auto;
+    border-radius: 10px;
+    padding: 22px 20px 0 20px;
+    margin-left: 0px;
+}
+#c1:hover{
+   background-color: #19D1B9; 
+}
+#c1{
+    background-color: #00CCB1;
+}
+#c2:hover{
+    background-color: #508FE2;
+}
+#c2{
+    background-color: #3D83DF;
+}
+#c3:hover{
+    background-color: #313C48;
+}
+#c3{
+    background-color: #1B2734;
+}
+.cards select{
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+}
+#choose1{
+    margin-top: 2%;
+    background-color: #1B2734;
+    border-color: #1B2734;
+}
+#c3:hover #choose1{
+    background-color: #313C48;
+    border-color: #313C48;
+}
+#choose2{
+    margin-top: 40%;
+    background-color: #1B2734;
+    border-color: #1B2734;
+}
+#c3:hover #choose2{
+    background-color: #313C48;
+    border-color: #313C48;
+}
+#choose3{
+    margin-top: 50%;
+    background-color: #3D83DF;
+    border-color: #3D83DF;
+}
+#c2:hover #choose3{
+    background-color: #508FE2;
+    border-color: #508FE2;
+}#choose4{
+    margin-top: 50%;
+    background-color: #00CCB1;
+    border-color: #00CCB1;
+}
+#c1:hover #choose4{
+    background-color: #19D1B9;
+    border-color: #19D1B9;
+}
+.cards h1{
+    font-size: 26px;
+    line-height: 33px;
+    color: white;
+    font-family: "Work Sans";
+    font-weight: 500;
+
+}
+.cards h2{
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    font-family: "Work Sans";
+    font-weight: 300;
+
+}
+.cards img{
+    height: 24px;
+    width: 24px;
+    font-size: 16px;
+}
+#main2{
+    width: 75%;
+    /* margin-right: 10%; */
+    display: grid;
+    grid-template-columns: 33% 67%;
+    position: relative;
+    margin: 40px 0 40px 14%;
+    padding: 0 20px 0 20px;
+}
+.kt{
+    margin: 7px 0 9px 14%;
+    padding: 0 26px 0 0;
+    grid-column-start: 1;
+    display: flex;
+}
+.imgs{
+    grid-column-start: 2;
+    padding-left: 30px;
+}
+.kt h1{
+    justify-self: start;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Work Sans";
+    color: #00CCB1;
+    line-height: 33px;
+
+}
+.imgs img{
+    font-size: small;
+    padding: 10px;
+    width: 140px;
+    height: 23px;
+}
